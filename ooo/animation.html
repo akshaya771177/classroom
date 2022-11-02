@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{  animation: bouncing 0.5s ease 0s infinite alternate both;
+            display: inline-block;
+            font-size: 30px;
+            background-color: blue;
+            padding: 1em 2em 1.1em;
+            border-radius: 50%;
+            vertical-align: top;
+            margin-top: 100px;
+            color: white;
+            letter-spacing: 0.5em;
+            font-weight: 900;
+            cursor: pointer;
+            position: relative; 
+            text-transform: uppercase;
+        }
+            @keyframes bouncing{
+                0%{ bottom: 0;
+                    box-shadow: 0 0 5px rgba(0,0,0,0.5);             
+                }
+                100%{ bottom: 100px;
+                    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+                }
+            }
+        
+    </style>
+</head>
+<body>
+    <a>Loading</a>
+</body>
+</html>
